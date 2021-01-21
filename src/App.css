@@ -1,7 +1,38 @@
 .App {
   text-align: center;
+  background-color: aquamarine;
+}
+.myImg{
+  height: 300px;
+  width: 200px;
+  
+}
+.title{
+ 
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
 }
 
+@keyframes myfirst {
+  0%   {background-color:red; left:0px;}
+  25%  {background-color:yellow; left:200px; }
+  50%  {background-color:blue; left:200px; }
+  75%  {background-color:green; left:0px; }
+  100% {background-color:red; left:0px; }
+  100% {background-color:saddlebrown; left:0px; }
+}
+.title1{
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes myfirst {
+  0%   {background-color:red; right:0px;}
+  25%  {background-color:yellow; right:200px; }
+  50%  {background-color:blue; right:200px; }
+  75%  {background-color:green; right:0px; }
+  100% {background-color:red; right:0px; }
+  100% {background-color:saddlebrown; right:0px; }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
